@@ -27,6 +27,7 @@ python train.py --help
 ---
 ### Details
 
+- The dataset is derived from [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset) on kaggle.
 - The application uses a pytorch implementation of the BiLSTM model for prediction, since LSTM have been shown to perform well in sentence classification tasks. 
 - GloVE 6b, 50 dimensional vectors are used in the embedding layer. 
-- The dataset has been processed to convert the problem from multi-label to a multi-class problem.
+- The dataset (`movies_metadata.csv`) has been processed to convert the problem from multi-label to a multi-class problem.
